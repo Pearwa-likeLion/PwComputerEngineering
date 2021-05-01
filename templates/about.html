@@ -1,0 +1,106 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+        <title>About</title>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto' ,sans-serif;
+                box-sizing: border-box;
+
+            }
+            body{
+                /*background: linear-gradient(to left, #ff0000 50%, #0000ff 50%);*/
+                font-family: 'Roboto' , sans-serif;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(to top right, rgb(0, 151, 197)  60%,rgb(253, 253, 253) 50%);
+            }
+            .container{
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 0 3rem;
+                margin-top: 3rem;
+                text-align: center;
+            }
+            .container h1{
+                color: rgb(17, 38, 70);
+                font-size: 4rem;
+                font-weight: 600;
+                letter-spacing: 8px;
+                margin-bottom: 1rem;
+            }
+            .container h2{
+                color:  rgb(160, 160, 160);
+                font-size: 3rem;
+                font-weight: 400;
+            }
+            .container .image{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                overflow: hidden;
+                display:inline-block;
+                vertical-align:middle;
+                margin-top: 1rem;
+            }
+            .container .image img{
+                width: 100%;
+            }
+            .container p{
+                margin-top: 2rem;
+                font-size: 16px;
+                color: #fff;
+                line-height: 2rem;
+                margin-bottom: 1rem;
+                
+            }
+            .container h3{
+                margin-top: 2rem;
+                color: #000;
+                font-size: 25px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>PEARWA TUSSANAPOOM</h1>
+            <h2>Suansriwittaya School</h2>
+            </div>
+            <div class="image">
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t1.15752-9/172003781_280346350386383_5113592218745072490_n.png?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_ohc=YgVmMDoGM38AX_fJ3cI&_nc_ht=scontent.furt1-1.fna&oh=2969b00e632c7facb55a67d7edcf9e92&oe=6098E708" alt="">
+            </div>
+         
+            <p>This is Me: นางสาวแพรวา ทัศนภูมิ หรือแพรวา นักเรียนชั้นมัธยมศึกษาปีที่ 6 สายการเรียน SMTE ที่กำลังจะศึกษาต่อมหาวิทยาลัย สนใจในด้านคอมพิวเตอร์การเขียนโปรแกรมเป็นอย่างมาก 
+                ได้รับแรงบันดานใจมาจาก Steve Job ซึ่งเป็นไอดอลที่ชื่นชอบในวัยเด็กและเมื่อโตขึ้นก็ยังมีพี่สาวทั้งสองที่จบวิศวกรรมคอมพิวเตอร์ซึ่งตอนนี้เป็นโปรแกรมเมอร์อยู่ในบริษัทในกรุงเทพเป็น
+                ไอดอลมาจนถึงทุกวันนี้ ชอบงานที่พี่เขาทำและรู้สึกว่าสุดยอดมากๆ เกิดความสนใจจึงศึกษาด้านนี้ตลอดมา ได้เรียนรู้เกี่ยวกับpython และนำความรู้มาสร้าง 'Website' และ
+                ทำการศึกษาเพิ่มเติมเกี่ยวกับ html พัฒนาความรู้และพบเจออุปสรรคหรือปัญหาต่างๆในการทำงานจริงมากมาย แต่สุดท้ายก็พยายามจนสามารถทำให้สำเร็จได้</p>
+            <h3>"อย่าคิดว่าปัญหาคือสิ่งที่แก้ไม่ได้ ทุกปัญหามีทางแก้และจงพยายยามเพื่อที่จะไปยัง 'Goal' ที่คุณตั้งไว้"</h3>
+        
+        </div>
+        <div class="diagonalimg">
+        </div>
+    
+    </body>
+    </html>
+{% endblock %}   
+<!p>This is Me : นักเรียนม.6 ที่สนใจในด้านการเขียนโปรแกรมและต้องการจะประยุกต์ความรู้ที่ได้เรียนรู้มาเกี่ยวกับภาษา python มาใช้ เลยเกิดไอเดียอยากจะทำ "Website" เผื่อนำความรู้
+                ไปใช้และพัฒนาฝีมือเกี่ยวกับการเขียนโปรแกรม และยังต้องใช้ html ในการเขียนเป็นส่วนใหญ่ สิ่งที่ได้เรียนรู้คือเมื่อทำจริง 'เจออุปสรรคมากมายในการทำเว็บ ไม่ว่าจะเป็นการนำรูปขึ้นเว็บไซด์ หรือการเริ่มเขียนเว็บไซด์ชึ่งในตอนแรกไม่รู้
+                จะเริ่มอย่างไรดี ใช้เวลาศึกษาการทำเว็บนานพอสมควร 2-3 วัน หลังจากนั้นก็ยังเจอปัญหาอีกมากในการทำเว็บไซด์ การทำหน้า Home หรือการจัดข้อมูล รวมถึงการรวบรวมข้อมูลด้วย python แต่สุดท้ายก็ได้ผลลัพธ์ที่น่าพอใจ'
+            <!/p>
+    <!This is Me:นางสาวแพรวา ทัศนภูมิหรือ แพรวา นักเรียนชั้นมัธยมศึกษาปีที่ 6 ที่กำลังจะศึกษาต่อมหาวิทยาลัย สนใจในด้านคอมพิวเตอร์การเขียนโปรแกรมเป็นอย่างมาก 
+    ได้รับแรงบันดานใจมาจาก Steve Job ซึ่งเป็นไอดอลที่ชืื่นชอบในวัยเด็กและเมื่อโตขึ้นก็ยังมีพี่สาวที่ตอนนี้เป็นหัวหน้าทีมโปรแกรมเมอร์อยู่ในบริษัทแห่งหนึ่งในกรุงเทพเป็น
+    ไิอดอลมาจนถึงทุกวันนี้ ชอบงานที่พี่เขาทำและรู้สึกว่ามันเท่มากๆเลยเกิดความสนใจจึงศึกษาด้านนี้ตลอดมา ได้เรียนรู้เกี่ยวกับpython และได้นำความรู้มาสร้าง 'Website' และได้
+    ศึกษาเพิ่มเติมเกี่ยวกับ html ได้พัฒนาความรู้และพบเจออุปสรรคหรือปัญหาต่างๆในการทำงานจริง เพื่อนำมาพัฒนาความรู้ต่อไป>
